@@ -15,6 +15,6 @@ for(let i=0; i<utents; i++){
 console.log(array);
 
 // Punto 4
-const five_elements = array.slice(5,utents); /* da rivedere */
+const five_elements = array.slice(-5);
 console.log(five_elements);
 
